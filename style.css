@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 459px;
+    height: 463px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  section {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  .container {
+    width: 1240px;
+    margin: 0 auto;
+  }
+  .description {
+    color: #1E1E1E;
+    font-family: 'Inter' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom:26px ;
+  }
+  .num{
+    color: #808080;
+    font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .title {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .first-col {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  /* Hero section */
+  .hero {
+    background-color: #2e2e2c;
+    width: 1440px;
+    min-height: 800px;
+  }
+  .hero__wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0 160px 0;
+  }
+  .name {
+    padding-top: 30px;
+    align-self: center;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 110px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: normal;
+  }
+
+  .hero {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    text-transform: uppercase;
+
+  }
+
+  .hero__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 45px 0 85px 0;
+  }
+  .hero__description {
+    width: 40%;
+    font-size: 24px;
+}
+  .nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav__item {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: auto;
+    position: relative;
+  }
+  .nav__img {
+    position: relative;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .nav__link {
+    color: #1E1E1E;
+    background-color: #c9c9c978;
+    position: absolute;
+    text-decoration: none;
+  }
+
+  @media (max-width:992px) {
+    .name {
+      font-size: 116px;
+    }
+    .hero__description {
+    width: 60%;
+    font-size: 32px;
+  }
+  .hero__date {
+    width: 30%;
+    font-size: 32px;
+  }
+  }
+  /* Biography section */
+.bio__wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 0 200px 0;
+}
+
+
+.bio__desc {
+  width: 40%;
+}
+.bio__img {
+  width: 408px;
+  height: 407px;
+  border-radius: 8px;
+}
+.icon {
+  align-self: end;
+}
+
+/* Activity secttion */
+.activity-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  margin: 80px 0 200px 0;
+}
+
+.activity-wrap__inner {
+ width: 40%;
+}
+.activity-img {
+  width: 100%;
+  height: 295px;
+}
+
+/* Personal life section  */
+
+.personal-life__wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 0 200px 0;
+}
+.personal-life__img {
+width: 459px;
+height: 463px;
+}
+.personal-life-wrap__inner {
+  width:40%
+}
+
+/* Awards section */
+.awards__wrap{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 0 100px 0;
+}
+.award__list {
+  list-style: none;
+  width: 50%;
+}
+.award__item{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 10px 15px;
+}
+.award__item-name {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  background: #D9D9D9;
+  margin: 0px 25px 25px 0;
+  font-size: 20px;
+  align-self: center;
+  padding: 10px;
+}
+.award__item-date {
+  width: 50%;
+  height: 48px;
+  border-radius: 8px;
+  background: #D9D9D9;
+  margin: 0px 25px 25px 0;
+  font-size: 20px;
+  padding: 10px;
+}
